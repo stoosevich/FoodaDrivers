@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8112D1011926BF670078EDAC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112D1001926BF670078EDAC /* LoginViewController.m */; };
+		81641F521923D76F00F58725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81641F511923D76F00F58725 /* Foundation.framework */; };
+		81641F541923D76F00F58725 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81641F531923D76F00F58725 /* CoreGraphics.framework */; };
+		81641F561923D76F00F58725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81641F551923D76F00F58725 /* UIKit.framework */; };
+		81641F5C1923D76F00F58725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81641F5A1923D76F00F58725 /* InfoPlist.strings */; };
+		81641F5E1923D76F00F58725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81641F5D1923D76F00F58725 /* main.m */; };
+		81641F621923D76F00F58725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 81641F611923D76F00F58725 /* AppDelegate.m */; };
+		81641F651923D76F00F58725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81641F631923D76F00F58725 /* Main.storyboard */; };
+		81641F6A1923D76F00F58725 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81641F691923D76F00F58725 /* Images.xcassets */; };
+		81641F711923D77000F58725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81641F701923D77000F58725 /* XCTest.framework */; };
+		81641F721923D77000F58725 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81641F511923D76F00F58725 /* Foundation.framework */; };
+		81641F731923D77000F58725 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81641F551923D76F00F58725 /* UIKit.framework */; };
+		81641F7B1923D77000F58725 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81641F791923D77000F58725 /* InfoPlist.strings */; };
+		81641F7D1923D77000F58725 /* FoodaDriversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81641F7C1923D77000F58725 /* FoodaDriversTests.m */; };
+		819051161926DE9B008F5180 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819051151926DE9B008F5180 /* MapKit.framework */; };
+		819051181926DEAD008F5180 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 819051171926DEAD008F5180 /* CoreLocation.framework */; };
+		8190511B1927048A008F5180 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8190511A1927048A008F5180 /* MapViewController.m */; };
+		8190512419283325008F5180 /* DriversTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8190512319283325008F5180 /* DriversTableViewController.m */; };
+		B2E88EDF6A9E4561A393D3D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB8F523429BA43B0A6BE966D /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81641F741923D77000F58725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81641F461923D76F00F58725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81641F4D1923D76F00F58725;
+			remoteInfo = FoodaDrivers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6FFBFFFF83B94F66BDD8AF0D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		8112D0FF1926BF670078EDAC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8112D1001926BF670078EDAC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		81641F4E1923D76F00F58725 /* FoodaDrivers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodaDrivers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81641F511923D76F00F58725 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		81641F531923D76F00F58725 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		81641F551923D76F00F58725 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		81641F591923D76F00F58725 /* FoodaDrivers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodaDrivers-Info.plist"; sourceTree = "<group>"; };
+		81641F5B1923D76F00F58725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81641F5D1923D76F00F58725 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81641F5F1923D76F00F58725 /* FoodaDrivers-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FoodaDrivers-Prefix.pch"; sourceTree = "<group>"; };
+		81641F601923D76F00F58725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		81641F611923D76F00F58725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		81641F641923D76F00F58725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81641F691923D76F00F58725 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		81641F6F1923D77000F58725 /* FoodaDriversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodaDriversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		81641F701923D77000F58725 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		81641F781923D77000F58725 /* FoodaDriversTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FoodaDriversTests-Info.plist"; sourceTree = "<group>"; };
+		81641F7A1923D77000F58725 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		81641F7C1923D77000F58725 /* FoodaDriversTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FoodaDriversTests.m; sourceTree = "<group>"; };
+		819051151926DE9B008F5180 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		819051171926DEAD008F5180 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		819051191927048A008F5180 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		8190511A1927048A008F5180 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		8190512219283325008F5180 /* DriversTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DriversTableViewController.h; sourceTree = "<group>"; };
+		8190512319283325008F5180 /* DriversTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DriversTableViewController.m; sourceTree = "<group>"; };
+		AB8F523429BA43B0A6BE966D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81641F4B1923D76F00F58725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				819051181926DEAD008F5180 /* CoreLocation.framework in Frameworks */,
+				819051161926DE9B008F5180 /* MapKit.framework in Frameworks */,
+				81641F541923D76F00F58725 /* CoreGraphics.framework in Frameworks */,
+				81641F561923D76F00F58725 /* UIKit.framework in Frameworks */,
+				81641F521923D76F00F58725 /* Foundation.framework in Frameworks */,
+				B2E88EDF6A9E4561A393D3D2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81641F6C1923D77000F58725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81641F711923D77000F58725 /* XCTest.framework in Frameworks */,
+				81641F731923D77000F58725 /* UIKit.framework in Frameworks */,
+				81641F721923D77000F58725 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81641F451923D76F00F58725 = {
+			isa = PBXGroup;
+			children = (
+				81641F571923D76F00F58725 /* FoodaDrivers */,
+				81641F761923D77000F58725 /* FoodaDriversTests */,
+				81641F501923D76F00F58725 /* Frameworks */,
+				81641F4F1923D76F00F58725 /* Products */,
+				6FFBFFFF83B94F66BDD8AF0D /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		81641F4F1923D76F00F58725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81641F4E1923D76F00F58725 /* FoodaDrivers.app */,
+				81641F6F1923D77000F58725 /* FoodaDriversTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81641F501923D76F00F58725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				819051171926DEAD008F5180 /* CoreLocation.framework */,
+				819051151926DE9B008F5180 /* MapKit.framework */,
+				81641F511923D76F00F58725 /* Foundation.framework */,
+				81641F531923D76F00F58725 /* CoreGraphics.framework */,
+				81641F551923D76F00F58725 /* UIKit.framework */,
+				81641F701923D77000F58725 /* XCTest.framework */,
+				AB8F523429BA43B0A6BE966D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81641F571923D76F00F58725 /* FoodaDrivers */ = {
+			isa = PBXGroup;
+			children = (
+				81641F601923D76F00F58725 /* AppDelegate.h */,
+				81641F611923D76F00F58725 /* AppDelegate.m */,
+				81641F631923D76F00F58725 /* Main.storyboard */,
+				819051191927048A008F5180 /* MapViewController.h */,
+				8190511A1927048A008F5180 /* MapViewController.m */,
+				8190512219283325008F5180 /* DriversTableViewController.h */,
+				8190512319283325008F5180 /* DriversTableViewController.m */,
+				8112D0FF1926BF670078EDAC /* LoginViewController.h */,
+				8112D1001926BF670078EDAC /* LoginViewController.m */,
+				81641F691923D76F00F58725 /* Images.xcassets */,
+				81641F581923D76F00F58725 /* Supporting Files */,
+			);
+			path = FoodaDrivers;
+			sourceTree = "<group>";
+		};
+		81641F581923D76F00F58725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81641F591923D76F00F58725 /* FoodaDrivers-Info.plist */,
+				81641F5A1923D76F00F58725 /* InfoPlist.strings */,
+				81641F5D1923D76F00F58725 /* main.m */,
+				81641F5F1923D76F00F58725 /* FoodaDrivers-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		81641F761923D77000F58725 /* FoodaDriversTests */ = {
+			isa = PBXGroup;
+			children = (
+				81641F7C1923D77000F58725 /* FoodaDriversTests.m */,
+				81641F771923D77000F58725 /* Supporting Files */,
+			);
+			path = FoodaDriversTests;
+			sourceTree = "<group>";
+		};
+		81641F771923D77000F58725 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				81641F781923D77000F58725 /* FoodaDriversTests-Info.plist */,
+				81641F791923D77000F58725 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81641F4D1923D76F00F58725 /* FoodaDrivers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81641F801923D77000F58725 /* Build configuration list for PBXNativeTarget "FoodaDrivers" */;
+			buildPhases = (
+				5D71FB2C7FFE4FBF82A4C9A2 /* Check Pods Manifest.lock */,
+				81641F4A1923D76F00F58725 /* Sources */,
+				81641F4B1923D76F00F58725 /* Frameworks */,
+				81641F4C1923D76F00F58725 /* Resources */,
+				AACC86748D6941CFAAC47F13 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FoodaDrivers;
+			productName = FoodaDrivers;
+			productReference = 81641F4E1923D76F00F58725 /* FoodaDrivers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81641F6E1923D77000F58725 /* FoodaDriversTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81641F831923D77000F58725 /* Build configuration list for PBXNativeTarget "FoodaDriversTests" */;
+			buildPhases = (
+				81641F6B1923D77000F58725 /* Sources */,
+				81641F6C1923D77000F58725 /* Frameworks */,
+				81641F6D1923D77000F58725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81641F751923D77000F58725 /* PBXTargetDependency */,
+			);
+			name = FoodaDriversTests;
+			productName = FoodaDriversTests;
+			productReference = 81641F6F1923D77000F58725 /* FoodaDriversTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81641F461923D76F00F58725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Steve Toosevich";
+				TargetAttributes = {
+					81641F6E1923D77000F58725 = {
+						TestTargetID = 81641F4D1923D76F00F58725;
+					};
+				};
+			};
+			buildConfigurationList = 81641F491923D76F00F58725 /* Build configuration list for PBXProject "FoodaDrivers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81641F451923D76F00F58725;
+			productRefGroup = 81641F4F1923D76F00F58725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81641F4D1923D76F00F58725 /* FoodaDrivers */,
+				81641F6E1923D77000F58725 /* FoodaDriversTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81641F4C1923D76F00F58725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81641F6A1923D76F00F58725 /* Images.xcassets in Resources */,
+				81641F5C1923D76F00F58725 /* InfoPlist.strings in Resources */,
+				81641F651923D76F00F58725 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81641F6D1923D77000F58725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81641F7B1923D77000F58725 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D71FB2C7FFE4FBF82A4C9A2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AACC86748D6941CFAAC47F13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81641F4A1923D76F00F58725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8112D1011926BF670078EDAC /* LoginViewController.m in Sources */,
+				81641F621923D76F00F58725 /* AppDelegate.m in Sources */,
+				81641F5E1923D76F00F58725 /* main.m in Sources */,
+				8190512419283325008F5180 /* DriversTableViewController.m in Sources */,
+				8190511B1927048A008F5180 /* MapViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81641F6B1923D77000F58725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81641F7D1923D77000F58725 /* FoodaDriversTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81641F751923D77000F58725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81641F4D1923D76F00F58725 /* FoodaDrivers */;
+			targetProxy = 81641F741923D77000F58725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81641F5A1923D76F00F58725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81641F5B1923D76F00F58725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		81641F631923D76F00F58725 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81641F641923D76F00F58725 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		81641F791923D77000F58725 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81641F7A1923D77000F58725 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81641F7E1923D77000F58725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		81641F7F1923D77000F58725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		81641F811923D77000F58725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFBFFFF83B94F66BDD8AF0D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodaDrivers/FoodaDrivers-Prefix.pch";
+				INFOPLIST_FILE = "FoodaDrivers/FoodaDrivers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		81641F821923D77000F58725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FFBFFFF83B94F66BDD8AF0D /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodaDrivers/FoodaDrivers-Prefix.pch";
+				INFOPLIST_FILE = "FoodaDrivers/FoodaDrivers-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		81641F841923D77000F58725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodaDrivers.app/FoodaDrivers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodaDrivers/FoodaDrivers-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FoodaDriversTests/FoodaDriversTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		81641F851923D77000F58725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FoodaDrivers.app/FoodaDrivers";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FoodaDrivers/FoodaDrivers-Prefix.pch";
+				INFOPLIST_FILE = "FoodaDriversTests/FoodaDriversTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81641F491923D76F00F58725 /* Build configuration list for PBXProject "FoodaDrivers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81641F7E1923D77000F58725 /* Debug */,
+				81641F7F1923D77000F58725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81641F801923D77000F58725 /* Build configuration list for PBXNativeTarget "FoodaDrivers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81641F811923D77000F58725 /* Debug */,
+				81641F821923D77000F58725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81641F831923D77000F58725 /* Build configuration list for PBXNativeTarget "FoodaDriversTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81641F841923D77000F58725 /* Debug */,
+				81641F851923D77000F58725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81641F461923D76F00F58725 /* Project object */;
+}
